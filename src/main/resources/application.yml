@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: TeluskoApp2
+  boot:
+    admin:
+      client:
+        url: http://localhost:1414/
+      
+      
+    
+server:
+  port: 8485
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
